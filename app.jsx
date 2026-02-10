@@ -12,5 +12,5 @@ const root =ReactDOM.createRoot(parent);
 // root.render(div);
 
 
-const h21 =<h2>hiii,i am using jsx</h2>
+// const h21 =<h2>hiii,i am using jsx</h2>
 root.render(h21);

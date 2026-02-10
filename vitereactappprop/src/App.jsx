@@ -5,7 +5,7 @@ import './App.css'
 import Profile from './component/profile'
 import Gallery from './component/gallery'
 import Icard from './component/icard'
-
+import ImageManipulation from './component/cat.jsx'
 function App() {
   return (
     <>
@@ -18,6 +18,7 @@ function App() {
         <Profile />
       </div>
       <Icard name="Keshav Upadhyay" age="21" college="ABES Engineering College" branch="CSE" year="3" rollno="12345"/>
+      <ImageManipulation />
     </>
   )
 }
