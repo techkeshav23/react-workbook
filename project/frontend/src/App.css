@@ -40,3 +40,25 @@
 .read-the-docs {
   color: #888;
 }
+body{
+  box-sizing: border-box;
+  background-color: rgb(234, 86, 111);
+  width: 100%;
+}
+.container{
+  display: flex ;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+ width: 100%;
+}
+.card{
+  border: 1px solid #ccc;
+  padding: 1rem;
+  margin: 1rem;
+  width: 300px;
+  height: 500px;
+  color: black;
+  background-color: rgb(232, 223, 223);
+}
